@@ -17,3 +17,6 @@ It means that multiple threads can modify the Vector in parallel without risk of
 
 ### Why Vector are synchronized?
 Vector is considered 'thread-safe' because access the the internals of the Vector is synchronized. When one thread is executing a synchronized method for an object, all other threads that invoke synchronized methods for the same object block (suspend execution) until the first thread is done with the object.
+
+### Advantages of vectors over array 
+https://www.geeksforgeeks.org/advantages-of-vector-over-array-in-c/?ref=rp
