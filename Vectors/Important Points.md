@@ -13,5 +13,7 @@
   3. Array cannot store elements of different data types.
   
 ### What does it mean for a vector to be synchronized?
-  
 It means that multiple threads can modify the Vector in parallel without risk of data corruption.
+
+### Why Vector are synchronized?
+Vector is considered 'thread-safe' because access the the internals of the Vector is synchronized. When one thread is executing a synchronized method for an object, all other threads that invoke synchronized methods for the same object block (suspend execution) until the first thread is done with the object.
