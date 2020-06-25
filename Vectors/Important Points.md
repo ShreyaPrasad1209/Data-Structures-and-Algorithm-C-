@@ -11,3 +11,7 @@
   1. Cannot modify the size of the array once initialized.
   2. Cannot delete elements from array.
   3. Array cannot store elements of different data types.
+  
+### What does it mean for a vector to be synchronized?
+  
+It means that multiple threads can modify the Vector in parallel without risk of data corruption.
