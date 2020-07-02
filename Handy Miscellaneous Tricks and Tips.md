@@ -1,0 +1,2 @@
+- **Convert string to integer:** stoi(string);
+- **Convert integer to string:** to_string(integer);
