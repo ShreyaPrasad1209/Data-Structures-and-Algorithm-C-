@@ -1,2 +1,4 @@
 - **Convert string to integer:** stoi(string);
 - **Convert integer to string:** to_string(integer);
+- **Check if space is present in string:** isspace();
+- **Check if string contains alphabet:** isalpha(char);
