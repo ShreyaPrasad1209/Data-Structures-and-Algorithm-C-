@@ -1,0 +1,2 @@
+- **sort(v.begin(),v.end())** : O(NlogN) where N=number of elements in vector
+- **binary_search(v.begin(),v.end(),val)**: O(logN). Returns bool value.
