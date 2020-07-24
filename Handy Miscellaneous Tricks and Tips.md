@@ -2,3 +2,4 @@
 - **Convert integer to string:** to_string(integer);
 - **Check if space is present in string:** isspace();
 - **Check if string contains alphabet:** isalpha(char);
+- **Remove duplicates from vector**: ans.erase(unique ( ans.begin(), ans.end() ), ans.end() );
