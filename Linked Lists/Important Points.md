@@ -15,3 +15,16 @@ Arrays can be used to store linear data of similar types, but arrays have the fo
 2) Extra memory space for a pointer is required with each element of the list.
 3) Not cache friendly. Since array elements are contiguous locations, there is locality of reference which is not there in case of linked lists.
 
+### How to find middle element?
+1) Racer technique: Take two pointers. Name them slow and fast.
+
+
+    ```
+    while(fast-next and fast->next->next;
+	{
+	   slow=slow->next; fast=fast->next->next;
+      if(slow==fast)
+       return slow; 
+     }
+  
+For even length list, middle will be the end of first half of linked list.
