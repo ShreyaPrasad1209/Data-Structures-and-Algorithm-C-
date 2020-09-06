@@ -15,6 +15,31 @@
             printf("%d", (num << i & 1 << 15)? 1:0);
        }`
        
+ ***Another method:*** 
+ `    
+ 
+       #include<iostream>
+ 
+       #include<string>
+  
+       #include <bitset>
+  
+       using namespace std;
+  
+       int main()
+   
+     {
+     
+    int n=128;
+    
+    string binary = bitset<8>(n).to_string(); //to binary
+    cout<<binary<<"\n";
+
+    unsigned long decimal = bitset<8>(binary).to_ulong();
+    cout<<decimal<<"\n";
+    return 0;
+      }`
+     
   - **Convert string to integer**: #include <stdio.h>
 
 `#include <string.h>
