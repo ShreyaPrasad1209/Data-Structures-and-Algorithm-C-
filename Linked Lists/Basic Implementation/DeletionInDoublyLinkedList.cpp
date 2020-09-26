@@ -83,23 +83,19 @@ class LinkedList {
         delete temp;
     }
     
-    void deleteBefore(int before)
+   void deleteBefore(int before)
     {
         Node* curr=head;
-        while(curr->val!=before)
+        while(curr->next->val!=before)
         {
             curr=curr->next;
         }
-        
-        Node* temp=curr->prev;
-        if(temp==head)
-        {
-            deleteBeg();
-            return;
-        }
-        curr->prev=temp->prev;
-        temp->prev->next=curr;
-        delete temp;
+      curr->prev->next = curr->next;
+   
+      curr->next->prev = curr->prev;
+  
+      delete curr;
+
     }
     
     
