@@ -4,7 +4,6 @@
 
 #include<iostream>
 #include<vector>
-#include<list>
 #include<algorithm>
 using namespace std;
 
@@ -21,14 +20,21 @@ class Stack
 //   Functions
   void push(int val);
   void pop();
-  int top();
+  int  peek();
   bool isEmpty();
   void display();
+  bool isFull();
 };
+
+bool Stack::isFull()
+{
+    return st.size()==size;
+    
+}
 
 void Stack::push(int val)
 {
-    if(st.size()>size)
+    if(isFull())
     {
         cout<<"Insufficient space"<<endl;
         return;
@@ -45,7 +51,7 @@ void Stack::pop()
     st.pop_back(); 
 }
 
-int Stack::top()
+int Stack::peek()
 {
     cout<<st.back()<<endl;
 }
@@ -85,9 +91,10 @@ int main()
     s.pop();
     s.display();
     cout<<"Using top function"<<endl;
-    s.top();
+    s.peek();
     return 0;
 }
+
 
 
 
