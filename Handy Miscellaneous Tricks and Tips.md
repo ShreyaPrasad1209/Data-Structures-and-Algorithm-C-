@@ -4,6 +4,8 @@
 - **Check if string contains alphabet:** isalpha(char);
 - **Remove duplicates from vector**: ans.erase(unique ( ans.begin(), ans.end() ), ans.end() ); For more methods check [Techie Delight's article](https://www.techiedelight.com/remove-duplicates-vector-cpp/)
 -  **Remove all occurences of a char in string**: str.erase(std::remove(str.begin(), str.end(), 'a'), str.end());
+-  **Find lexicographically previous smaller permutation**: prev_permutation(str.begin(), str.end());
+-  **Find lexicographically next larger permutation**: next_permutation(str.begin(), str.end()); 
 - **Convert decimal to binary number** :      
        `#include<stdio.h>
        
