@@ -17,3 +17,9 @@
      int shift = 1<< n;
      num = num & (~shift) ; 
 }
+
+// First step is to shift 1,Second step is to XOR with given number 
+void toggle(int &num,int n) 
+{ 
+    num ^= (1 << n); 
+} 
