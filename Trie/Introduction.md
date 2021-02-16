@@ -1,0 +1,1 @@
+- [Introduction](https://leetcode.com/discuss/general-discussion/1066206/introduction-to-trie)
