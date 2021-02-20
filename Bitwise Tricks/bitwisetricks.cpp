@@ -23,3 +23,10 @@ void toggle(int &num,int n)
 { 
     num ^= (1 << n); 
 } 
+
+
+void rightmostbitmask(int n)
+{
+    n = n & -n;
+    cout<<n; 
+}
