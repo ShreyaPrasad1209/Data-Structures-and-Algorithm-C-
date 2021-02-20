@@ -70,4 +70,6 @@
 
 printf("%d", result);
 
-}`     
+}`   
+
+-[Prefix Sum Array Applications in Competitive Programming](https://www.geeksforgeeks.org/prefix-sum-array-implementation-applications-competitive-programming/)
