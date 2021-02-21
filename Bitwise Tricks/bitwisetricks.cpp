@@ -27,6 +27,8 @@ void toggle(int &num,int n)
 
 void rightmostbitmask(int n)
 {
-    n = n & ~(n-1);
+    int rmb = n & ~(n-1);
+    //OR
+     int rmb= n & -n ; 
     cout<<n; 
 }
