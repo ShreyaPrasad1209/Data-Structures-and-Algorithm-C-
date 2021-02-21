@@ -1,1 +1,2 @@
 - [LeetCode Bitwise Patterns for Interviews](https://leetcode.com/problems/sum-of-two-integers/discuss/84278/A-summary:-how-to-use-bit-manipulation-to-solve-problems-easily-and-efficiently)
+- [All About Bitwise Operations](https://leetcode.com/discuss/general-discussion/1073221/all-about-bitwise-operations-beginner-intermediate)
