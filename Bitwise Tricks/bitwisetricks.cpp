@@ -32,3 +32,22 @@ void rightmostbitmask(int n)
      int rmb= n & -n ; 
     cout<<n; 
 }
+
+int countSetBits(int n)
+{
+  //Method 1
+  bitset<16> b1(n);
+  cout<<"Number of set bits are"<< b1.count();<<endl;
+  
+   //Method 2
+   cout<<__builtin_popcount(n)<<endl;
+   
+  //Method 3
+  int count=0;
+  while(n)
+  {
+    count+= n&1;
+    n=n>>1;
+  }
+    return count;
+}
