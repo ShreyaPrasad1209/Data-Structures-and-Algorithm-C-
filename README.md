@@ -4,3 +4,4 @@
 - [LeetCode Pick](https://leetcode.com/discuss/general-discussion/1041234/become-leetcodes-pick-win-leetcoins-and-leetcode-goodies)
 - [Fenwick Trees](https://leetcode.com/discuss/general-discussion/1093346/introduction-to-fenwick-treebinary-indexed-treebit)
 - [Interview Prep Guide](https://leetcode.com/discuss/interview-question/1098600/topics-which-you-cant-skip-interview-preparation-study-plan-using-leetcode)
+- [System Design: Distributed Systems](https://leetcode.com/discuss/general-discussion/1105898/system-design-introduction-to-distributed-systems-designing-a-highly-available-system)
