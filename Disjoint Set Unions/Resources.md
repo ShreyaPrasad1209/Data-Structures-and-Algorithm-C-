@@ -1,1 +1,2 @@
 - [LeetCode Introduction Article](https://leetcode.com/discuss/general-discussion/1072418/disjoint-set-union-dsuunion-find)
+- [HackerEarth Notes](https://www.hackerearth.com/practice/notes/disjoint-set-union-union-find/)
