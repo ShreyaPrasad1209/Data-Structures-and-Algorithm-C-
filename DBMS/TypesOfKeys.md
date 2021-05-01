@@ -1,0 +1,1 @@
+- [Types of Keys](https://sqlrelease.com/sql-server-tutorial/types-of-keys#:~:text=Types%20of%20keys%201%20Candidate%20Key.%20Candidate%20key,6%20Super%20Key.%20...%207%20Foreign%20Key.%20)
