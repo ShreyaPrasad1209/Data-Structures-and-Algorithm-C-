@@ -1,0 +1,1 @@
+-[Virtual Class vs Pure Virtual Class](https://pediaa.com/what-is-the-difference-between-virtual-function-and-pure-virtual-function/#:~:text=Difference%20Between%20Virtual%20Function%20and%20Pure%20Virtual%20Function,Class.%20...%205%20Outcome.%20...%206%20Conclusion.%20)
