@@ -8,3 +8,4 @@
 - [OA Dec 2020](https://leetcode.com/discuss/interview-question/991036/Flipkart-or-OA-or-Special-substring) 
 - [Chocolate Distribution Problem](https://www.geeksforgeeks.org/chocolate-distribution-problem/)
 - [Validate Stack Sequences](https://leetcode.com/problems/validate-stack-sequences/)
+- [Maximum size square sub-matrix with all 1s](https://www.geeksforgeeks.org/maximum-size-sub-matrix-with-all-1s-in-a-binary-matrix/) - Interview Round 1 GWC
