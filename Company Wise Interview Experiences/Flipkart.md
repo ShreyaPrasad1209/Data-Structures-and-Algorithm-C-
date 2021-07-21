@@ -33,7 +33,9 @@ Number of pages in chapters = {10, 5, 6}
      Day 1:  Chapter 1
      Day 2:  Chapters 2 and 3
      
-     
+Similiar to [Capacity To Ship Packages Within D Days](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/).
+
+
 - **My Interview Round 2:** Shyam is in love with a spreadsheet and he was to implement a sheet with size MxN with three functionality
 
 1. Update a cell value with an Integer value or expression**
