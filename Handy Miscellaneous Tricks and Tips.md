@@ -21,7 +21,7 @@
  ***Another method:*** 
  `    
  
-       #include<iostream>
+     ` #include<iostream>
  
        #include<string>
   
@@ -43,9 +43,11 @@
     return 0;
       }`
      
-  - **Convert string to integer**: #include <stdio.h>
+  - **Convert string to integer**: 
 
-`#include <string.h>
+` #include <stdio.h>
+
+#include <string.h>
 
   main()
 
@@ -70,6 +72,8 @@
 
 printf("%d", result);
 
-}`   
+} `   
 
--[Prefix Sum Array Applications in Competitive Programming](https://www.geeksforgeeks.org/prefix-sum-array-implementation-applications-competitive-programming/)
+
+- [Prefix Sum Array Applications in Competitive Programming](https://www.geeksforgeeks.org/prefix-sum-array-implementation-applications-competitive-programming/)
+- [Tuples in C++ STL](https://www.geeksforgeeks.org/tuples-in-c/)
