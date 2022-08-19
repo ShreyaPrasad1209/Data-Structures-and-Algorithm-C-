@@ -51,8 +51,6 @@ int main()
 		graph[y].push_back(make_pair(c, x));
 	}
 
-	cout << MSTPrims(n, graph, 1) << endl;
-
 	vector<int> dijans = Dijkstra(n, graph, 0);
 	for (int i = 0; i < dijans.size(); i++)
 	{
